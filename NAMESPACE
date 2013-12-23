@@ -1,12 +1,4 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  Rcmdr,
-  sos,
-  tcltk2
-)
+import(sos, Rcmdr)
+importFrom(tcltk, tkbutton)
+importFrom(tcltk2, tk2tip, tk2label)
+export(sosInit)
